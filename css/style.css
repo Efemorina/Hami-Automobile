@@ -17,7 +17,18 @@
     bottom: 45px;
     z-index: 99;
 }
+.carousel-item img {
+    width: 100%; /* Resmin genişliğini %100 yapar */
+    height: auto; /* Yüksekliği otomatik ayarlar */
+    object-fit: cover; /* Resmin alanı doldurmasını sağlar */
+}
 
+.carousel-caption {
+    position: absolute; /* Kaplamanın konumunu ayarlamak için */
+    bottom: 20px; /* Alt boşluk */
+    left: 20px; /* Sol boşluk */
+    right: 20px; /* Sağ boşluk */
+}
 
 /*** Spinner ***/
 #spinner {
