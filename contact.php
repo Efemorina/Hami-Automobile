@@ -5,8 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    // mail() fonksiyonu ile e-posta gönder
-    $to = "your-email@example.com"; // Burayı kendi e-posta adresinizle değiştirin
+    $to = "info@hami-automobile.ch"; 
     $headers = "From: $email";
     mail($to, $subject, $message, $headers);
     echo "Mesaj gönderildi!";
